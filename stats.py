@@ -6,13 +6,7 @@ import pygame
 red = (255, 0, 0)
 blue = (0, 0, 255)
 green = (0, 255, 0)
-# ------------------------------------------------------- 
-def map_maker(mapper):
-    for i, row in enumerate(mapper):
-        for j, column in enumerate(row):
-                wood(20, 20, 20*j, 20*i, flooring, floor)
-                if column == 'b':
-                    wall(20, 20, 20*j, 20*i, walls, wall_img)
+# -------------------------------------------------------
 # Map 1 -------------------------------------------------
 main_map = [
     '..................................................',#1
